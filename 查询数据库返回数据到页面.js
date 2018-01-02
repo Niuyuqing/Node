@@ -4,8 +4,7 @@ var connection = mysql.createConnection({
 	host: 'localhost',
 	user: 'root',
 	password: 'root',
-	database: 'epet',
-	charset:'UTF8'
+	database: 'epet'
 });
 //开始你的mysql连接
 connection.connect();
